@@ -1,87 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="537745d2-fdf3-45e3-91ce-55d43dfd9027" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Disruptor.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JMH.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/Tets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/JustTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v1/LongEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v1/LongEventHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v1/LongEventProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v2/LongEventFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v2/LongEventProducer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v4/LongEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v4/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T01_WhatIsThread$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T01_WhatIsThread$T1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T01_WhatIsThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T02_HowToCreateThread$MyRun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T02_HowToCreateThread$MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T03_Sleep_Yield_Join.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T04_ThreadState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_002/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_003/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_003/T1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_005/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_007/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_008/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_009/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_010/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_011/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_012_Volatile/T01_HelloVolatile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_012_Volatile/T03________VolatileReference2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_012_Volatile/T04_VolatileNotSync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_012_Volatile/T05_VolatileVsSync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_016_LockOptimization/FineCoarseLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_017_MoreAboutSync/DoNotLockString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_017_MoreAboutSync/SyncSameObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T01_AtomicInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T02_AtomicVsSyncVsLongAdder$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T02_AtomicVsSyncVsLongAdder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T03________SyncVsLongAdder$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T03________SyncVsLongAdder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_01_Unsafe/HelloUnsafe$M.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_01_Unsafe/HelloUnsafe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T01_ReentrantLock1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T02_ReentrantLock2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T03_ReentrantLock3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T06_TestCountDownLatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T08_TestPhaser$Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T09_TestPhaser2$MarriagePhaser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T09_TestPhaser2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T10_TestReadWriteLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T11_TestSemaphore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T12_TestExchanger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T13_TestLockSupport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T02_WithVolatile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T04_NotifyFreeLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T05_CountDownLatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T06_LockSupport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T08_Semaphore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_021_01_interview/MyContainer1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_021_02_AQS/TestReentrantLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_023/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T01_ConcurrentMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T02_CopyOnWriteList$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T02_CopyOnWriteList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T03_SynchronizedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T04_ConcurrentQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T05_LinkedBlockingQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T06_ArrayBlockingQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T07_DelayQueue$MyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T07_DelayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_027_future_to_loom/T01_Future.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_027_future_to_loom/T02_ListenableFuture$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T01_ReentrantLock1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T01_ReentrantLock1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_03_VarHandle/T01_HelloVarHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_03_VarHandle/T01_HelloVarHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JUC.kotlin_module" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,22 +21,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="JUC" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Disruptor.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -193,16 +106,10 @@
     </option>
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -224,6 +131,7 @@
     <option name="width" value="1932" />
     <option name="height" value="1092" />
   </component>
+  <component name="ProjectId" id="1zZdpYZK86LyglckrDx2U6ZMjOU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -246,16 +154,26 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19058296" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -277,19 +195,7 @@
       <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\disruptor\v3" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Tets">
+  <component name="RunManager" selected="Application.T01_ReentrantLock1">
     <configuration name="T01_CacheLinePadding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_028_FalseSharing.T01_CacheLinePadding" />
       <module name="JUC" />
@@ -303,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T02_CacheLinePadding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_028_FalseSharing.T02_CacheLinePadding" />
+    <configuration name="T01_ReentrantLock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020.T01_ReentrantLock1" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_028_FalseSharing.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T13_TransferQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_00_interview.A1B2C3.T13_TransferQueue" />
+    <configuration name="T02_CacheLinePadding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_028_FalseSharing.T02_CacheLinePadding" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_026_00_interview.A1B2C3.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_028_FalseSharing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,23 +261,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.T13_TransferQueue" />
       <item itemvalue="Application.T01_CacheLinePadding" />
       <item itemvalue="Application.T02_CacheLinePadding" />
       <item itemvalue="Application.WriteCombining" />
       <item itemvalue="Application.Tets" />
+      <item itemvalue="Application.T01_ReentrantLock1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T01_ReentrantLock1" />
         <item itemvalue="Application.Tets" />
         <item itemvalue="Application.WriteCombining" />
         <item itemvalue="Application.T02_CacheLinePadding" />
         <item itemvalue="Application.T01_CacheLinePadding" />
-        <item itemvalue="Application.T13_TransferQueue" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
@@ -385,6 +303,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565232818446</updated>
+      <workItem from="1634359735159" duration="1287000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交演示代码">
       <created>1566616292953</created>
@@ -495,6 +414,20 @@
       <window_info anchor="right" id="Structure" order="8" sideWeight="0.2195946" visible="true" weight="0.20975609" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交演示代码" />
     <MESSAGE value="2019年9月8日的更新" />
@@ -511,25 +444,21 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T11_TestSemaphore.java</url>
           <line>12</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java</url>
           <line>126</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_02_AQS/TestReentrantLock.java</url>
           <line>10</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
           <line>807</line>
-          <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>

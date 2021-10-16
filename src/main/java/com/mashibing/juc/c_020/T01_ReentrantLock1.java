@@ -17,6 +17,7 @@ public class T01_ReentrantLock1 {
 				e.printStackTrace();
 			}
 			System.out.println(i);
+			// 锁重入是一个线程里面，两个对同一对象加锁的方法，可以重入
 			if(i == 2) m2();
 		}
 		
@@ -34,6 +35,7 @@ public class T01_ReentrantLock1 {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		//new Thread(rl::m2).start();
+		// 竞争锁的不同线程，还是要等拿到锁之后才能执行
+		new Thread(rl::m2).start();
 	}
 }

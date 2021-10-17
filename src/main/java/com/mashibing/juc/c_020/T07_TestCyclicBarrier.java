@@ -20,6 +20,7 @@ public class T07_TestCyclicBarrier {
 
                 new Thread(()->{
                     try {
+                        // 这里只是启动了20个线程就触发操作，有没有什么方法可以是确认几个线程执行成功之后才触发操作？
                         barrier.await();
 
                     } catch (InterruptedException e) {

@@ -34,7 +34,7 @@ public class T04_ReentrantLock4 {
 				TimeUnit.SECONDS.sleep(Integer.MAX_VALUE);
 				System.out.println("t1 end");
 			} catch (InterruptedException e) {
-				System.out.println("interrupted!");
+				System.out.println("interrupted! -- t1");
 			} finally {
 				lock.unlock();
 			}
@@ -49,7 +49,7 @@ public class T04_ReentrantLock4 {
 				TimeUnit.SECONDS.sleep(5);
 				System.out.println("t2 end");
 			} catch (InterruptedException e) {
-				System.out.println("interrupted!");
+				System.out.println("interrupted! -- t2");
 			} finally {
 				lock.unlock();
 			}

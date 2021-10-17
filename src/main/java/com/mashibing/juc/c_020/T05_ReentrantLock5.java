@@ -21,13 +21,17 @@ package com.mashibing.juc.c_020;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class T05_ReentrantLock5 extends Thread {
-		
-	private static ReentrantLock lock=new ReentrantLock(true); //参数为true表示为公平锁，请对比输出结果
+
+    //参数为true表示为公平锁，请对比输出结果
+	private static ReentrantLock lock =
+            new ReentrantLock(true);
+//            new ReentrantLock();
     public void run() {
-        for(int i=0; i<100; i++) {
+        for(int i=0; i<1000; i++) {
             lock.lock();
             try{
-                System.out.println(Thread.currentThread().getName()+"获得锁");
+                // 如果是公平锁，那么永远是线程1 先获取锁执行，执行完之后才是线程2；
+                System.out.println(Thread.currentThread().getName()+" --获得锁");
             }finally{
                 lock.unlock();
             }
@@ -37,7 +41,8 @@ public class T05_ReentrantLock5 extends Thread {
         T05_ReentrantLock5 rl=new T05_ReentrantLock5();
         Thread th1=new Thread(rl);
         Thread th2=new Thread(rl);
-        th1.start();
+
         th2.start();
+        th1.start();
     }
 }
